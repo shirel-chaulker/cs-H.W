@@ -94,12 +94,12 @@ namespace homework14112022
             Console.WriteLine(result3);
             Console.ReadLine();
 
-            void func(string string1, string string2)
-            {
-                ///string1=anigadolmeod
-                ///string2=meod
-
-
+            
+                void func(string string1, string string2)
+                {
+                    string resr;
+                    if (string1.Contains(string2)) resr = string1.Replace(string2, "*");
+                }
             }
         }
     }
